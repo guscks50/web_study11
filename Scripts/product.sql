@@ -4,3 +4,7 @@ insert into product values(product_seq.nextval, 'Dynamic Programming book 시리
 insert into product values(product_seq.nextval, 'Visual C++ MFC 윈도우 프로그래밍', 26000, 'mfc.jpg', 'Visual C++를 처음 시작하는 독자의 눈높이에 맞춘 Visual C++...');
 insert into product values(product_seq.nextval, 'jQuery and jQuery Mobile : 이해하기 쉽게 풀어쓴', 25000, 'jquery.jpg', '소스 하나로 데스크탑과 모바일까지 HTML5와 함께 사용한다. 초보자들도 ...');
 commit;
+DELETE PRODUCT ;
+SELECT * FROM product;
+
+SELECT code,name,price,pictureurl,description FROM product ORDER BY code;
